@@ -8,13 +8,13 @@ public class Employee
 	{
       System.out.println("Welcome");
  
-      int max = 2;
+      int max = 4;
       int min = 0;
       int range = max - min +0;
       int fulldayhour=8;
       int workingHour=0;
       int employeewageperHour=20;
-      for (int i=0; i<=10; i++);
+      for (int i=0; i<4; i++);
       {
     	  int rand = (int)(Math.random() * range) + min;
     	  System.out.println(rand);
@@ -33,7 +33,12 @@ public class Employee
     	                    System.out.println("wokingHour is : " +workingHour);
     	                    System.out.println("employeewageperHour is : " +employeewageperHour);
     	                    break;
-    	  
+    	                    
+    	           case 2: System.out.println("Employee is working as part time");
+                            workingHour=8;
+                             System.out.println("wokingHour is : " +workingHour);
+                              break;
+                              
     	           default:  System.out.println("end of the case");
     	                     break;
     	       }
