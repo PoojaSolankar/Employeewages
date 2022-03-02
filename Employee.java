@@ -3,7 +3,8 @@ import java.lang.Math;
 import java.util.Random;
 public class Employee 
 {
-
+    static final int WAGE_PER_HOURS =20;
+	
     public static void main(String[] args)
     {
 		
