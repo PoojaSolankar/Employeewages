@@ -31,7 +31,7 @@ public class Employee
 	                  System.out.println("Working hours :"+workingHours);
 	                  break;
 	         
-	    	 case 1:  System.out.println("Employee is Present");
+		     case 1:  System.out.println("Employee is Present");
 	                  workingHours=8;
 	                  System.out.println("Working hours :"+workingHours);
 	                  
