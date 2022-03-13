@@ -52,6 +52,9 @@ public class EmpWageBuilder2 {
 		System.out.println("-----------------------------------------");
 		EmpWageBuilder2 ajinkyabazar = new EmpWageBuilder2("AjinkyaBazar", 20, 2, 10);
 		ajinkyabazar.computeEmpWage();
+		System.out.println("-----------------------------------------");
+		EmpWageBuilder2 trends = new EmpWageBuilder2("Trends", 20, 2, 10);
+		trends.computeEmpWage();
 		
 		// TODO Auto-generated method stub
 
