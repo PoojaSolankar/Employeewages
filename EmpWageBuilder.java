@@ -53,8 +53,6 @@ public class EmpWageBuilder {
 		System.out.println("-----------------------------------------");
 		EmpWageBuilder ajinkyabazar = new EmpWageBuilder("AjinkyaBazar", 20, 2, 10);
 		ajinkyabazar.computeEmpWage();
-		System.out.println("------------------------------------------");
-		EmpWageBuilder trends = new EmpWageBuilder("Trends", 20, 2, 10);
-		trends.computeEmpWage();
+		
 	}
 }
